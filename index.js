@@ -1,6 +1,6 @@
-let countEl = document.getElementById("count-el")
-let saveEl = document.getElementById("save-el")
-let currentEl = document.getElementById("current-temp")
+const countEl = document.getElementById("count-el");
+const saveEl = document.getElementById("save-el");
+const currentEl = document.getElementById("current-temp");
 let count = 0
 
 function increment() {

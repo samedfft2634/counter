@@ -45,16 +45,51 @@ body {
 }
 
 #increment-btn {
-	background: darkgreen;
+	background: darkred;
 }
 
+#increment-btn:hover::before {
+    content: '🥵';
+    font-size: 2rem;
+    
+}
+#increment-btn:active::after {
+    content: '⬆';
+    font-size: 2rem;
+    margin-left: 8px;
+
+}
 #decrement-btn {
-	background: darkred;
+	background: lightskyblue;
+}
+
+#decrement-btn:hover::after {
+    content: '🥶';
+    font-size: 2rem;
+    margin-left: 8px;
+}
+
+#decrement-btn:active::before {
+    content: '⬇';
+    font-size: 2rem;
+    margin-right: 8px;
+
 }
 
 #save-el {
 	background: darkorange;
 }
+
+#save-el:hover::after {
+    content: '🔓';
+    font-size: 2rem;
+}
+#save-el:active::after {
+    content: '🔒';
+    font-size: 2rem;
+}
+
+
 
 .par {
 	/* border: 2px solid red; */
